@@ -37,15 +37,17 @@ const About = () => {
               I am Freelance Web Developer with 5 years of exprience
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              praesentium molestiae qui harum? Deleniti nobis eos id iste
-              aliquam eum.
+              A skilled React and full-stack developer with a
+              passion for creating immersive user experiences. With expertise in
+              front-end development using React and a solid understanding of
+              back-end technologies, they excel at building robust and scalable
+              applications that deliver exceptional results.
             </p>
             {/* countup  */}
             <div className="flex gap-x-6 lg:gap-x-10">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inVeiw ? <CountUp start={0} end={14} duration={3} /> : null}
+                  {inVeiw ? <CountUp start={0} end={3} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />
@@ -54,8 +56,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inVeiw ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  {inVeiw ? <CountUp start={0} end={5} duration={3} /> : null}
+                  
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Completed <br />
@@ -64,8 +66,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inVeiw ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
+                  {inVeiw ? <CountUp start={0} end={3} duration={3} /> : null}
+                  
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br />

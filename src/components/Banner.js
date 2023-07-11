@@ -2,7 +2,7 @@ import React from "react";
 import image from "../assets/avatar.png";
 import { FaFacebook, FaYoutube, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import { motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { fadeIn } from "./../variants";
 
 const Banner = () => {
@@ -51,9 +51,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              earum deserunt esse dolore ipsam, tempore vitae id nulla aut
-              ullam!
+              Unlocking Digital Success: Elevate Your Brand with Captivating Web
+              Design and Seamless Functionality
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.7)}

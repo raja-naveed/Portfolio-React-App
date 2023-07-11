@@ -27,10 +27,11 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus ea asperiores laboriosam veniam. Doloremque sapiente
-                similique quam maxime animi veniam consequatur unde porro,
-                dolore cumque?
+                Experience a Slice of Web Delight: Indulge in our Pizza Website
+                built with React and MERN stack, featuring a seamless cart
+                system and intuitive ordering capabilities. Explore our
+                mouthwatering product page and savor the convenience of placing
+                your favorite pizza creations at your fingertips
               </p>
               <button className="btn btn-sm">View My all Projects</button>
             </div>

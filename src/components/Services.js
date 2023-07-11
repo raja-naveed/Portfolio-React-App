@@ -10,25 +10,13 @@ const services = [
   {
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium molestiae qui harum.",
+      "Mastering the Art of Web Development: Unleashing the Full Potential of React.js with 3 Years of Expertise",
     link: "Learn More",
   },
   {
     name: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium molestiae qui harum.",
-    link: "Learn More",
-  },
-  {
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium molestiae qui harum.",
-    link: "Learn More",
-  },
-  {
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium molestiae qui harum.",
+      "Creating Visual Masterpieces: Unleashing the Power of React.js in Web Design with 3 Years of Expertise",
     link: "Learn More",
   },
 ];
@@ -48,7 +36,7 @@ const Services = () => {
           >
             <h1 className="h2 text-accent mb-6">What I Do</h1>
             <h3 className="h3 max-w-[455px] mb-16">
-              I am Freelance Web Developer with 5 years of exprience
+              I am Freelance Web Developer with 3 years of exprience
             </h3>
             <button className="btn btn-sm">See my Work</button>
           </motion.div>
@@ -60,7 +48,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
             {/* services list  */}
-            
+
             <div>
               {services.map((service, index) => {
                 const { name, description, link } = service;
